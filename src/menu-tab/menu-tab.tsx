@@ -6,5 +6,6 @@ export interface MenuTabProps {
 }
 
 export const MenuTab: React.FC<MenuTabProps> = ({ className }) => {
-    return <div className={`${styles.root} ${className}`}>MenuTab</div>;
+    return <div className={`${styles.root} ${className}`}>
+        <p className={styles.ParagraphSemibold}>MenuTab</p></div>;
 };
