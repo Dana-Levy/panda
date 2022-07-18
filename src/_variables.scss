@@ -1,62 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-// Typography
+:root {
+    // Pallete
 
+    --primary: #1e50ff;
+    --primary-400: #3562ff;
+    --primary-300: #6285ff;
+    --primary-200: #8fa8ff;
+    --primary-100: #bccbff;
+
+    --secondary: #ffab4d;
+    --secondary-400: #ffbe75;
+    --secondary-300: #ffd19d;
+    --secondary-200: #ffe3c5;
+    --secondary-100: #fff6ed;
+
+    --success: #38c976;
+    --info: #3eaeff;
+    --warning: #ffa23a;
+    --error: #fe5050;
+
+    --gray: #fff6ed;
+    --gray-900: #272d37;
+    --gray-800: #36414c;
+    --gray-700: #66737f;
+    --gray-600: #8f9ca9;
+    --gray-500: #adb9c7;
+    --gray-400: #b8c1cc;
+    --gray-300: #d5dde5;
+    --gray-200: #e7ecf2;
+    --gray-100: #eef2f6;
+
+
+// Typography
+ 
 $font-family: "Poppins", sans-serif;
 
-$h1-bold: 700 72px/96px $font-family;
-$h2-bold: 700 64px/80px $font-family;
-$h3-bold: 700 48px/64px $font-family;
-$h4-bold: 700 32px/48px $font-family;
-$h5-bold: 700 24px/32px $font-family;
-$h6-bold: 700 16px/24px $font-family;
-$p-body-bold: 700 16px/32px $font-family;
-$p-cap-bold: 700 14px/24px $font-family;
+--h1-bold: 700 72px/96px $font-family;
+--h2-bold: 700 64px/80px $font-family;
+--h3-bold: 700 48px/64px $font-family;
+--h4-bold: 700 32px/48px $font-family;
+--h5-bold: 700 24px/32px $font-family;
+--h6-bold: 700 16px/24px $font-family;
+--p-body-bold: 700 16px/32px $font-family;
+--p-cap-bold: 700 14px/24px $font-family;
 
-$h1-medium: 500 72px/96px $font-family;
-$h2-medium: 500 64px/88px $font-family;
-$h3-medium: 500 48px/64px $font-family;
-$h4-medium: 500 32px/48px $font-family;
-$h5-medium: 500 24px/32px $font-family;
-$h6-medium: 500 16px/24px $font-family;
-$p-body-medium: 600 16px/32px $font-family;
-$p-cap-medium: 600 14px/24px $font-family;
+--h1-medium: 500 72px/96px $font-family;
+--h2-medium: 500 64px/88px $font-family;
+--h3-medium: 500 48px/64px $font-family;
+--h4-medium: 500 32px/48px $font-family;
+--h5-medium: 500 24px/32px $font-family;
+--h6-medium: 500 16px/24px $font-family;
+--p-body-medium: 600 16px/32px $font-family;
+--p-cap-medium: 600 14px/24px $font-family;
 
-$h1-regular: 400 72px/96px $font-family;
-$h2-regular: 400 64px/88px $font-family;
-$h3-regular: 400 48px/64px $font-family;
-$h4-regular: 400 32px/48px $font-family;
-$h5-regular: 400 24px/32px $font-family;
-$h6-regular: 400 16px/24px $font-family;
-$p-body-regular: 400 16px/32px $font-family;
-$p-cap-regular: 400 14px/24px $font-family;
-
-// Pallete
-
-$primary: #1e50ff;
-$primary-400: #3562ff;
-$primary-300: #6285ff;
-$primary-200: #8fa8ff;
-$primary-100: #bccbff;
-
-$secondary: #ffab4d;
-$secondary-400: #ffbe75;
-$secondary-300: #ffd19d;
-$secondary-200: #ffe3c5;
-$secondary-100: #fff6ed;
-
-$success: #38c976;
-$info: #3eaeff;
-$warning: #ffa23a;
-$error: #fe5050;
-
-$gray: #fff6ed;
-$gray-900: #272d37;
-$gray-800: #36414c;
-$gray-700: #66737f;
-$gray-600: #8f9ca9;
-$gray-500: #adb9c7;
-$gray-400: #b8c1cc;
-$gray-300: #d5dde5;
-$gray-200: #e7ecf2;
-$gray-100: #eef2f6;
+--h1-regular: 400 72px/96px $font-family;
+--h2-regular: 400 64px/88px $font-family;
+--h3-regular: 400 48px/64px $font-family;
+--h4-regular: 400 32px/48px $font-family;
+--h5-regular: 400 24px/32px $font-family;
+--h6-regular: 400 16px/24px $font-family;
+--p-body-regular: 400 16px/32px $font-family;
+--p-cap-regular: 400 14px/24px $font-family;
+}

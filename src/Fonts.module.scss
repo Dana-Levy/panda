@@ -3,6 +3,6 @@
 
 .testfont {
      font: $p-body-medium;
-     color: $secondary-100;
-     background-color: $info;
+     color: var(--secondary-100);
+     background-color: var(--info);
 }

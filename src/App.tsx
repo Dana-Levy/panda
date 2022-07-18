@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import styles from './Fonts.module.scss';
-import './_variables.scss'
+
 function App() {
     return (
         <div className="App">
