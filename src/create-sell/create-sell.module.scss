@@ -1,0 +1,16 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CardsContainer {
+    display: flex;
+    gap: 26px;
+    margin-top: 56px;
+}
+
+.Title {
+    font-size: 48px;
+    color: #FFFFFF;
+}
