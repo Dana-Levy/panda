@@ -13,7 +13,7 @@ export const Profile: React.FC<ProfileProps> = ({ className }) => {
             <p className={styles.Creator}>Creator</p>
             <p className={styles.CreatorName}>SalvadorDali</p>
         </div>
-        <div className={styles.CreatorContainer}>
+        <div className={styles.BidContainer}>
             <p className={styles.Current}>Current Bid</p>
             <p className={styles.eth}>4.89 eTH</p>
         </div>

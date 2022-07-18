@@ -6,7 +6,8 @@ export default createBoard({
     name: 'Profile',
     Board: () => <Profile />,
     environmentProps: {
-        canvasWidth: 444,
-        canvasBackgroundColor: '#181717'
+        canvasWidth: 340,
+        canvasBackgroundColor: '#181717',
+        canvasHeight: 59
     }
 });
