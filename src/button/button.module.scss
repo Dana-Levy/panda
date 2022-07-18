@@ -1,10 +1,10 @@
 .root {}
 
 .Button {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 12px;
+    padding-left: 12px;
     border-radius: 16px;
     border: 1px solid #1E50FF;
     width: 175px;
@@ -13,4 +13,5 @@
     font-size: 16px;
     line-height: 32px;
     color: #FFFFFF;
+    align-items: center;
 }
