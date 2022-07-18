@@ -1,8 +1,0 @@
-@use 'variables' as *;
-
-
-.testfont {
-     font: $p-body-medium;
-     color: var(--secondary-100);
-     background-color: var(--info);
-}

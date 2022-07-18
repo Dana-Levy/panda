@@ -6,12 +6,13 @@ import { Tag } from '../tag/tag';
 export interface CardProps {
     className?: string;
     title: string;
+    imageUrl: string;
 }
 
-export const Card: React.FC<CardProps> = ({ className, title }) => {
+export const Card: React.FC<CardProps> = ({ className, title,imageUrl }) => {
     return <div className={`${styles.root} ${className}`}>
         <div className={styles.imageContainer}>
-            <img src="https://static.wixstatic.com/media/8586f3_6bc9a9458b9d40b4a0029aef96d5babe~mv2.png/v1/fill/w_470,h_300,al_c,lg_1,q_85,enc_auto/8586f3_6bc9a9458b9d40b4a0029aef96d5babe~mv2.png" className={styles.image} />
+            <img src={imageUrl} className={styles.image} />
         </div>
         <div className={styles.TitleContainer}>
             <h1 className={styles.TilteCard}>{title}</h1>

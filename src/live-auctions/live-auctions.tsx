@@ -10,11 +10,11 @@ export interface LiveAuctionsProps {
 export const LiveAuctions: React.FC<LiveAuctionsProps> = ({ className }) => {
     return <div className={`${styles.root} ${className}`}>
         <div className={styles.TitleAction}>
-            <h3 className={styles.Title}>Heading 3</h3>
+            <h3 className={styles.Title}>Live Auctions</h3>
             <Button disabled={false} type="secondary" text={'View More'} /></div>
         <div className={styles.ContainerLiveAuctions}>
-            <Card />
-            <Card />
-            <Card />
+            <Card title={'"Hamlet Contemplates ...'} imageUrl={'https://static.wixstatic.com/media/8586f3_69ef1de7fcce440c8204df402b7bf6e9~mv2.png/v1/fill/w_470,h_300,al_c,lg_1,q_85,enc_auto/8586f3_69ef1de7fcce440c8204df402b7bf6e9~mv2.png'} />
+            <Card title="&quot;Hamlet Contemplates ..." imageUrl="https://static.wixstatic.com/media/8586f3_69ef1de7fcce440c8204df402b7bf6e9~mv2.png/v1/fill/w_470,h_300,al_c,lg_1,q_85,enc_auto/8586f3_69ef1de7fcce440c8204df402b7bf6e9~mv2.png" />
+            <Card title="&quot;Hamlet Contemplates ..." imageUrl="https://static.wixstatic.com/media/8586f3_69ef1de7fcce440c8204df402b7bf6e9~mv2.png/v1/fill/w_470,h_300,al_c,lg_1,q_85,enc_auto/8586f3_69ef1de7fcce440c8204df402b7bf6e9~mv2.png" />
         </div></div>;
 };

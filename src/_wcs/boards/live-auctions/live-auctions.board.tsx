@@ -7,6 +7,7 @@ export default createBoard({
     Board: () => <LiveAuctions />,
     environmentProps: {
         windowBackgroundColor: '#181818',
-        windowWidth: 1242
+        windowWidth: 1300,
+        windowHeight: 701
     }
 });

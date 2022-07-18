@@ -1,3 +1,5 @@
+@import "../variables.scss";
+
 .root {}
 
 .ContainerLiveAuctions {
@@ -5,13 +7,15 @@
     gap: 24px;
 }
 
-@import "../_variables.scss";
 
 .TitleAction {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 56px;
+    align-items: center;
 }
 
 .Title {
     color: var(--gray-100);
+    font-size: 48px;
 }
