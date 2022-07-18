@@ -1,12 +1,14 @@
 import React from 'react';
 import styles from './menu-tab.module.scss';
 
+export type menuItem = {text: string, link?: string};
+
 export interface MenuTabProps {
     className?: string;
-    name: string;
+    item: menuItem;
 }
 
-export const MenuTab: React.FC<MenuTabProps> = ({ className, name }) => {
+export const MenuTab: React.FC<MenuTabProps> = ({ className, item }) => {
     return <div className={`${styles.root} ${className}`}>
-        <p className={styles.ParagraphSemibold}>{name}</p></div>;
+        <a className={styles.ParagraphSemibold} href={item.link}>{item.text}</a></div>;
 };
