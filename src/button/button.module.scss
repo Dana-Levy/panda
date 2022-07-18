@@ -1,0 +1,16 @@
+.root {}
+
+.Button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 16px;
+    border: 1px solid #1E50FF;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}

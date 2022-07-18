@@ -6,6 +6,7 @@ export default createBoard({
     name: 'TopMenu',
     Board: () => <TopMenu />,
     environmentProps: {
-        canvasWidth: 782
+        canvasWidth: 838,
+        windowWidth: 1004
     }
 });
