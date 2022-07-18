@@ -6,6 +6,8 @@ export default createBoard({
     name: 'Button',
     Board: () => <Button type="primary" text={'Button'} disabled={false} />,
     environmentProps: {
-        windowBackgroundColor: '#040404'
+        windowBackgroundColor: '#ffffff',
+        canvasBackgroundColor: '#000000',
+        canvasWidth: 175
     }
 });

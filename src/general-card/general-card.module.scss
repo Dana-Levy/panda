@@ -1,0 +1,28 @@
+.root {
+    width: 384px;
+    height: 368px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    align-items: center;
+    background-color: #272D37;
+    border-radius: 16px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.Title {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-top: 48px;
+    margin-right: 0px;
+    margin-bottom: 24px;
+}
+
+.Paragraphy {
+    text-align: center;
+    color: #ADB9C7;
+}
