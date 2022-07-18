@@ -19,6 +19,6 @@ export const TopMenu: React.FC<TopMenuProps> = ({ className }) => {
             <MenuTab />
             <MenuTab className="" />
         </div>
-        <Button />
+        <Button text={'Connect Wallet'} type="secondary" disabled={false} />
     </div>;
 };

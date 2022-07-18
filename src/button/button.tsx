@@ -3,11 +3,14 @@ import styles from './button.module.scss';
 
 export interface ButtonProps {
     className?: string;
+    text: string;
+    type: 'primary'|'secondary';
+    disabled: boolean;
 }
 
-export const Button: React.FC<ButtonProps> = ({ className }) => {
+export const Button: React.FC<ButtonProps> = ({ className,type }) => {
     return <div className={`${styles.root} ${className}`}>
-        <div className={styles.Button}>
+        <div className={type === 'primary' ? styles.primary : styles.secondary}>
             <p>Button</p>
         </div></div>;
 };
