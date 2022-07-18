@@ -8,16 +8,13 @@ export interface TopMenuProps {
     className?: string;
 }
 
+const links = [{name: 'Menu Tab'},{name: 'Menu Tab'},{name: 'Menu Tab'},{name: 'Menu Tab'},{name: 'Menu Tab'}]
+
 export const TopMenu: React.FC<TopMenuProps> = ({ className }) => {
     return <div className={`${styles.root} ${className}`}>
         <PandaLogo />
         <div className={styles.TabsContainer}>
-            <MenuTab />
-            <MenuTab />
-            <MenuTab />
-            <MenuTab />
-            <MenuTab />
-            <MenuTab className="" />
+            {links.map(link => <MenuTab name={link.name} />)}
         </div>
         <Button text={'Connect Wallet'} type="secondary" disabled={false} />
     </div>;
