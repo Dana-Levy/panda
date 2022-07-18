@@ -3,5 +3,8 @@ import { Card } from '../../../card/card';
 
 export default createBoard({
     name: 'Card',
-    Board: () => <Card />
+    Board: () => <Card title={'Hamlet Contemplates ...'} />,
+    environmentProps: {
+        canvasWidth: 385
+    }
 });

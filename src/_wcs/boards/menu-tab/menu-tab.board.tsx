@@ -4,7 +4,7 @@ import { MenuTab } from '../../../menu-tab/menu-tab';
 
 export default createBoard({
     name: 'MenuTab',
-    Board: () => <MenuTab />,
+    Board: () => <MenuTab name={'TubMenu'} />,
     environmentProps: {
         canvasHeight: 35,
         canvasBackgroundColor: '#120f0f'
