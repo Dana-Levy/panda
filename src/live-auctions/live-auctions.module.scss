@@ -1,0 +1,17 @@
+.root {}
+
+.ContainerLiveAuctions {
+    display: flex;
+    gap: 24px;
+}
+
+@import "../_variables.scss";
+
+.TitleAction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Title {
+    color: var(--gray-100);
+}

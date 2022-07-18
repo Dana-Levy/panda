@@ -14,6 +14,15 @@
     padding-left: 32px;
 }
 
+.root:hover{
+    border: 1px solid;
+border-image-source: linear-gradient(136.6deg, #FFFFFF -14.02%, rgba(255, 255, 255, 0) 51.46%),
+linear-gradient(317.85deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 66.33%);
+
+
+}
+
+
 .Title {
     color: #FFFFFF;
     font-size: 24px;

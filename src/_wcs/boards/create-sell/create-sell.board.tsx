@@ -6,6 +6,7 @@ export default createBoard({
     name: 'CreateSell',
     Board: () => <CreateSell />,
     environmentProps: {
-        canvasBackgroundColor: '#1e1e1e'
+        canvasBackgroundColor: '#1e1e1e',
+        windowWidth: 1358
     }
 });
