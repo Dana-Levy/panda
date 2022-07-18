@@ -4,5 +4,8 @@ import { Profile } from '../../../profile/profile';
 
 export default createBoard({
     name: 'Profile',
-    Board: () => <Profile />
+    Board: () => <Profile />,
+    environmentProps: {
+        canvasWidth: 470
+    }
 });
