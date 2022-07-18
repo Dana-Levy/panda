@@ -3,12 +3,13 @@ import styles from './profile.module.scss';
 
 export interface ProfileProps {
     className?: string;
+    imageUrl: string;
 }
 
-export const Profile: React.FC<ProfileProps> = ({ className }) => {
+export const Profile: React.FC<ProfileProps> = ({ className, imageUrl }) => {
     return <div className={`${styles.root} ${className}`}>
         <div className={styles.ProfilePic}>
-            <img src="https://wixplosives.github.io/wcs-assets-storage/add-panel/image-placeholder.jpg" className={styles.image} /></div>
+            <img src={imageUrl} className={styles.image} /></div>
         <div className={styles.CreatorContainer}>
             <p className={styles.Creator}>Creator</p>
             <p className={styles.CreatorName}>SalvadorDali</p>
