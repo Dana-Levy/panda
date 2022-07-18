@@ -8,7 +8,7 @@ export interface TopMenuProps {
     className?: string;
 }
 
-const links = [{name: 'Menu Tab'},{name: 'Menu Tab'},{name: 'Menu Tab'},{name: 'Menu Tab'},{name: 'Menu Tab'}]
+const links = [{name: 'Home'},{name: 'Discover'},{name: 'Docs'},{name: 'Blog'},{name: 'About Us'},{name: 'Contact Us'}]
 
 export const TopMenu: React.FC<TopMenuProps> = ({ className }) => {
     return <div className={`${styles.root} ${className}`}>
