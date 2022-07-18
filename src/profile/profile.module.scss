@@ -1,6 +1,7 @@
 .root {
     display: flex;
     align-items: center;
+    justify-content: start;
 }
 
 .ProfilePic {
@@ -27,9 +28,27 @@
     font-size: 18px;
     margin: 0px;
     padding: 0px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 28px;
 }
 
 .CreatorContainer {
     padding: 0px;
+    margin: 0px 77px 0px 0px;
+}
+
+.Current {
+    color: #ADB9C7;
+    font-size: 14px;
+    padding: 0px;
     margin: 0px;
+}
+
+.eth {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 30px;
+    color: #FFFFFF;
 }
