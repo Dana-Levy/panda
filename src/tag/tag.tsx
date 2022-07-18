@@ -7,5 +7,5 @@ export interface TagProps {
 
 export const Tag: React.FC<TagProps> = ({ className }) => {
     return <div className={`${styles.root} ${className}`}>
-        <p>Tag</p></div>;
+        <p>BSC</p></div>;
 };
