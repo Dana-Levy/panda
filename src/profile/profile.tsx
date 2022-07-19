@@ -13,7 +13,9 @@ export const Profile: React.FC<ProfileProps> = ({ name, eth, className, imageUrl
         <div className={styles.ProfilePic}>
             <img src={imageUrl} className={styles.image} /></div>
         <div className={styles.CreatorContainer}>
-            <p className={styles.Creator}>Creator</p></div>
+            <p className={styles.Creator}>Creator</p>
+            <h1 className={styles.CreatorName}>{name}</h1>
+        </div>
         <div className={styles.BidContainer}>
             <p className={styles.Current}>Current Bid</p>
             <p className={styles.eth}>{eth}</p>
