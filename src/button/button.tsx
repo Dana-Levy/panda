@@ -9,8 +9,10 @@ export interface ButtonProps {
 }
 
 export const Button: React.FC<ButtonProps> = ({ className,type,text }) => {
-    return <div className={`${styles.root} ${className}`}>
+    return (
+    <div className={`${styles.root} ${className}`}>
         <div className={type === 'primary' ? styles.primary : styles.secondary}>
-            <p>{text}</p>
-        </div></div>;
+            {text}
+        </div>
+    </div>)
 };

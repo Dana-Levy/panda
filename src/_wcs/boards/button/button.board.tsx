@@ -4,7 +4,7 @@ import { Button } from '../../../button/button';
 
 export default createBoard({
     name: 'Button',
-    Board: () => <Button type="primary" text={'Button'} disabled={false} />,
+    Board: () => <Button type="secondary" text={'Button'} disabled={false} />,
     environmentProps: {
         windowBackgroundColor: '#ffffff',
         canvasBackgroundColor: '#000000',

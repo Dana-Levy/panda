@@ -11,10 +11,14 @@
 .imageContainer {
     width: 336px;
     height: 352px;
+    
     border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.imageContainer:hover {
+.image:hover {
     width: 336px;
     height: 352px;
     border-radius: 24px;
