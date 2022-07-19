@@ -5,6 +5,7 @@ import { Cover } from '../cover/cover';
 import { CreateSell } from '../create-sell/create-sell';
 import { LiveAuctions } from '../live-auctions/live-auctions';
 import { HotNFT } from '../hot-nft/hot-nft';
+import { Banner } from '../banner/banner';
 
 export interface PandaHomePageProps {
     className?: string;
@@ -101,5 +102,6 @@ export const PandaHomePage: React.FC<PandaHomePageProps> = ({ className }) => {
                 name: 'Dennis K. Pa'
             }
         }]} className={styles.MainHot} />
+        <Banner />
     </div>;
 };
