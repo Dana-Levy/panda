@@ -7,6 +7,6 @@ export default createBoard({
     Board: () => <Cover />,
     environmentProps: {
         windowWidth: 1192,
-        canvasBackgroundColor: '#312c2c'
+        canvasBackgroundColor: '#252323'
     }
 });
