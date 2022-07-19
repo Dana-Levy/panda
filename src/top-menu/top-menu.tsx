@@ -18,7 +18,7 @@ export const TopMenu: React.FC<TopMenuProps> = ({ className, items }) => {
             {
                 items.map(item => {
                     return (
-                        <MenuTab item={{text: item.text, link: item.link}} />
+                        <MenuTab item={{ text: item.text, link: item.link }} />
                     )
                 })
             }
