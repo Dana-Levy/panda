@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './profile.module.scss';
 
+export type userProfile = {imageUrl: string, name: string, eth: string}
+
 export interface ProfileProps {
     className?: string;
     imageUrl: string;
