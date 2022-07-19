@@ -7,10 +7,10 @@ export default createBoard({
     Board: () => <PandaHomePage />,
     environmentProps: {
         windowWidth: 1440,
-        windowHeight: 1000,
+        windowHeight: 1411,
         canvasBackgroundColor: '#030610',
         canvasWidth: 1440,
-        canvasHeight: 40,
+        canvasHeight: 1058,
         windowBackgroundColor: '#030610'
     }
 });
